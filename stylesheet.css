@@ -1,0 +1,29 @@
+div {
+    background-color: #bababa;
+    border: 1px solid #bababa;
+    border-radius: 5px;
+    height: auto;
+    width: 100%;
+}
+#header {
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-left: 10px;
+}
+.left {
+    float: left;
+    width: 49%;
+    margin-top: 100px;
+}
+.right {
+    float: right;
+    width: 49%;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+#footer {
+    clear: both;
+    min-height: 100px;
+}
